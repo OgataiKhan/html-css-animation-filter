@@ -198,9 +198,119 @@ RISOLUZIONE DELL'ESERCIZIO
 
 /* Esercizio 11 */
 
+.ex-11-icon:hover {
+    animation-name: spin-and-back;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes spin-and-back {
+    0% {
+        transform: rotate(0turn);
+    }
+    80% {
+        transform: rotate(0.75turn);
+    }
+    100% {
+        transform: rotate(0turn);
+    }
+}
+
 /* Esercizio 12 */
+
+.ex-12-top-white {
+    animation-name: white-shift-top;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes white-shift-top {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(100px, 0);
+    }
+    100% {
+        transform: translate(0, 0)
+    }
+}
+
+.ex-12-bottom-white {
+    animation-name: white-shift-bottom;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes white-shift-bottom {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-100px, 0);
+    }
+    100% {
+        transform: translate(0, 0)
+    }
+}
 
 /* Esercizio 13 */
 
+.ex-13-top-white {
+    animation-name: white-rotation-top;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes white-rotation-top {
+    0% {
+        transform: translate(0, 0);
+    }
+    20% {
+        transform: translate(140px, 0px);
+    }
+    40% {
+        transform: translate(140px, 70px);
+    }
+    70% {
+        transform: translate(-40px, 70px);
+    }
+    90% {
+        transform: translate(-40px, 0px);
+    }
+    100% {
+        transform: translate(0, 0)
+    }
+}
+
+.ex-13-bottom-white {
+    animation-name: white-rotation-bottom;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes white-rotation-bottom {
+    0% {
+        transform: translate(0, 0);
+    }
+    20% {
+        transform: translate(-100px, 0px);
+    }
+    40% {
+        transform: translate(-100px, -70px);
+    }
+    70% {
+        transform: translate(80px, -70px);
+    }
+    90% {
+        transform: translate(80px, 0px);
+    }
+    100% {
+        transform: translate(0, 0)
+    }
+}
 
 /* #endregion */
