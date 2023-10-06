@@ -136,13 +136,65 @@ RISOLUZIONE DELL'ESERCIZIO
 
 /* Esercizio 6 */
 
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
 /* Esercizio 7 */
+
+/* L'immagine non esiste, ho messo l'immagine dell'esercizio 6 come placeholder */
+
+
+.ex-7-img {
+    transition: 1s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(1);
+    transform: rotate(1turn);
+}
 
 /* Esercizio 8 */
 
+.ex-8-img {
+    transition: 1s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(1);
+    transform: scale(-1,1);
+    border-radius: 20px;
+}
+
 /* Esercizio 9 */
 
+.ex-9-img {
+    transition: 1s;
+}
+
+.ex-9-img:hover {
+    filter: blur(4px);
+    transform: scale(1.3,1.3) translate(200px, 0);
+    border-radius: 20px;
+}
+
 /* Esercizio 10 */
+
+.ex-10-icon {
+    animation-name: spin;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0turn);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+}
 
 /* Esercizio 11 */
 
